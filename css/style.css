@@ -6,6 +6,46 @@
     box-sizing: border-box;
     font-family: "Roboto-Black";
 }
-body {
-
+/* Header */
+.header{
+    padding: 25px;
+    background: var();
+}
+.header h2{
+    color: white;
+}
+.header p{
+    margin-top: 5px;
+    color: white;
+    opacity: 70%;
+}
+.header input{
+    width: 100%;
+    padding: 12px 0 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    margin: 20px 0 10px 0;
+    outline: none;
+}
+.header input::placeholder{
+    color: white;
+}
+/* Main */
+.main{
+    overflow: scroll;
+}
+.main img{
+    width: 20%;
+    border-radius: 50%;
+}
+.person__profile{
+    display: flex;
+    margin: 25px;
+}
+.profile__info{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
