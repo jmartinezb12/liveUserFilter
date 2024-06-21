@@ -9,7 +9,7 @@
 /* Header */
 .header{
     padding: 25px;
-    background: var();
+    background: var(--color-1);
 }
 .header h2{
     color: white;
@@ -23,6 +23,7 @@
     width: 100%;
     padding: 12px 0 12px 20px;
     font-size: 16px;
+    background: var(--color-2);
     border: none;
     border-radius: 50px;
     margin: 20px 0 10px 0;
