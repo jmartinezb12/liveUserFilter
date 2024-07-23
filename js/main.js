@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const searchTerm = event.target.value.toLowerCase().trim(); // Obtener el valor del input y convertirlo a minusculas y sin espacios
 
         const filteredProfiles = people.filter((person) => {
-            return person.fullName.toLowerCase().includes(searchTerm); //Comparar si el nombre de la persona incluye el término de búsqueda
+            return person.name_full.toLowerCase().includes(searchTerm); //Comparar si el nombre de la persona incluye el término de búsqueda
         });
 
         if (filteredProfiles.length === 0) { // Si no se encuentran personas
